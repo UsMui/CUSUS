@@ -8,8 +8,8 @@ namespace ConsoleApp1.BaiThi
 {
     public class Animal
     {
-        public int weight { get; set; }
-        public string name { get; set; }
+        public int weight;
+        public string name;
    
         public Animal(int weight,string name)
         {
