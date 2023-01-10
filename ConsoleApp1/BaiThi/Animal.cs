@@ -10,6 +10,7 @@ namespace ConsoleApp1.BaiThi
     {
         public int weight { get; set; }
         public string name { get; set; }
+   
         public Animal(int weight,string name)
         {
             this.weight = weight;
@@ -17,7 +18,7 @@ namespace ConsoleApp1.BaiThi
         }
         public void Show()
         {
-            Console.WriteLine("Name : " + this.name + "Weight : " + this.weight);
+            Console.WriteLine("Name : " + this.name + " Weight : " + this.weight);
         }
         public void SetMe(int weight,string name)
         {
